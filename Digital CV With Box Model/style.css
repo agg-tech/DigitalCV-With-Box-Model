@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+section, head, meta, link, title, body, header, img, html, h1, h2, h3, p, a, main, ul, li, table, thead, tbody, tr, th, td, ol, footer, form, label, input, br, b, select, option, textarea {
+    box-sizing: border-box;
+}
+/*Added box sizing to body.*/
+
+body {
+    background-color: black;
+    margin: 7px;
+    border: 2px solid greenyellow;
+    padding: 15px;
+}
+
+/*Body*/
+
+img {
+    border: 2px solid greenyellow;
+    border-radius: 50%;
+
+}
+
+/*Profile Picture*/
+
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: 2px solid greenyellow;
+}
+
+/*All sections.*/
+
+
+
+a {
+    text-decoration: none;
+    color: greenyellow;
+}
+
+a:hover {
+    color: blue;
+}
+
+/*Header*/
+
+h2 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+/*Subheadings.*/
+
+header, section, h2, form, label, input, select {
+    font-family: 'Source Code Pro', monospace;
+    color: greenyellow;
+}
+p, li, h3, td {
+    font-size: small;
+}
+
+header {
+    text-align: center;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
+input[type="reset"], input[type="submit"] {
+    font-family: 'Source Code Pro', monospace;
+    color: greenyellow;
+    background-color: black;
+    border: 2px solid greenyellow;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+input[type="reset"]:hover, input[type="submit"]:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+input[type="text"], input[type="email"], select {
+    font-family: 'Source Code Pro', monospace;
+    color: greenyellow;
+    background-color: black;
+    border: 1px solid greenyellow;
+    padding: 5px 10px;
+    margin: 5px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+input[type="text"]::placeholder, input[type="email"]::placeholder {
+    color: greenyellow;
+}
+
+form {
+    border-top: 2px solid greenyellow;
+} 
+
+/*Form*/
+
+
